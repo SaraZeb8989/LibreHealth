@@ -3,67 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/projects/lh-ehr/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/projects/lh-ehr/</loc>
     <lastmod>2016-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/projects/lh-radiology/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/projects/lh-radiology/</loc>
     <lastmod>2016-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/projects/lh-toolkit/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/projects/lh-toolkit/</loc>
     <lastmod>2016-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/demos/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/demos/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/donate/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/donate/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/teams/diversity/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/teams/documentation/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/teams/education/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/teams/infrastructure/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/teams/lsc/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/</loc>
     <lastmod>2016-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/teams/</loc>
+    <loc>https://sarazeb8989.github.io/Librehealth/teams/diversity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarazeb8989.github.io/Librehealth/teams/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarazeb8989.github.io/Librehealth/teams/education/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarazeb8989.github.io/Librehealth/teams/infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarazeb8989.github.io/Librehealth/teams/lsc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarazeb8989.github.io/Librehealth/projects/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sarazeb8989.github.io/Librehealth/teams/</loc>
     <priority>0</priority>
   </url>
   
