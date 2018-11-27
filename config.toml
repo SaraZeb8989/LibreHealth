@@ -1,0 +1,192 @@
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+baseurl       = "http://localhost:1313"
+title         = "LibreHealth"
+canonifyurls  = true
+theme         = "hugo-universal-theme"
+
+############################################
+#Universal Theme Specific
+############################################
+disqusShortname = ""
+googleAnalytics = ""
+languageCode = "en-us"
+
+# Define the number of posts per page
+paginate = 10
+
+############################################
+#General Params
+############################################
+[params]
+    enforceSSL = false
+    viewMorePostLink     = "#"
+    author = "LibreHealth"
+    about_us = "LibreHealth is collaborative community for free & open source software projects in Health IT, and is a member project of Software Freedom Conservancy."
+    copyright = "Copyright &copy; {year} Software Freedom Conservancy, Inc. All rights reserved."
+    date_format = "2018-10-02"
+    logo = "img/logo.png"
+    sharelogo = "img/share-logo.png"
+
+############################################
+#Menu Section
+############################################
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+	identifier = "projects"
+    url  = "/projects/"
+    weight = 2
+
+    [[menu.main]]
+        name = "LibreHealth Radiology"
+        parent = "projects"
+        identifier="lh-radiology"
+        url = "/projects/lh-radiology"
+        pre = "fa fa-heartbeat"
+
+    [[menu.main]]
+        name = "LibreHealth Toolkit"
+	    parent = "projects"
+	    identifier="lh-toolkit"
+	    url = "/projects/lh-toolkit"
+	    pre = "fa fa-medkit"
+
+    [[menu.main]]
+        name = "LibreHealth EHR"
+	    parent = "projects"
+	    identifier="lh-ehr"
+	    url = "/projects/lh-ehr"
+	    pre = "fa fa-user-md"
+
+[[menu.main]]
+    name = "Teams"
+    identifier = "teams"
+    url  = "/teams/"
+    weight = 3
+
+    [[menu.main]]
+        name = "Education & University Outreach"
+        parent = "teams"
+        url  = "/teams/education"
+        pre = "fa fa-graduation-cap"
+
+    [[menu.main]]
+        name = "Documentation"
+        parent = "teams"
+        url  = "/teams/documentation"
+        pre = "fa fa-pencil"
+
+    [[menu.main]]
+        name = "Diversity & Inclusion"
+        parent = "teams"
+        url  = "/teams/diversity"
+
+    [[menu.main]]
+        name = "LibreHealth Steering Committee"
+        parent = "teams"
+        url  = "/teams/lsc"
+
+    [[menu.main]]
+        name = "LibreHealth Infrastructure Team"
+        parent = "teams"
+        url  = "/teams/infrastructure"
+        pre = "fa fa-server"
+
+[[menu.main]]
+    name = "community"
+    identifier = "community"
+    url  = ""
+    weight = 4
+
+    [[menu.main]]
+        name = "Forums"
+        parent = "community"
+        url  = "https://forums.librehealth.io/"
+        pre = "fa fa-comments"
+
+    [[menu.main]]
+        name = "Chat"
+        parent = "community"
+        url  = "https://chat.librehealth.io/"
+        pre = "fa fa-comment"
+
+[[menu.main]]
+    name = "demos"
+    identifier = "demos"
+    url  = "/demos"
+    weight = 5
+
+[[menu.main]]
+    name = "contribute"
+    identifier = "contrib"
+    url  = ""
+    weight = 6
+
+    [[menu.main]]
+        name = "Contribute code"
+        parent = "contrib"
+        url  = "https://gitlab.com/librehealth"
+        pre = "fa fa-code-fork"
+
+    [[menu.main]]
+        name = "Contribute documentation"
+        parent = "contrib"
+        url  = "https://gitlab.com/librehealth"
+        pre = "glyphicon glyphicon-book"
+
+    [[menu.main]]
+        name = "Donate money"
+        parent = "contrib"
+        url  = "/donate"
+        pre = "glyphicon glyphicon-usd"
+
+############################################
+#Enable widgets for the right sidebar
+############################################
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+############################################
+#Enable carousel in homepage
+############################################
+[params.carousel]
+    enable = true
+
+############################################
+#Features are defined in their own files.
+#These need to be located at '/data/features'
+############################################
+[params.features]
+    enable = true
+
+############################################
+#See more section
+############################################
+[params.see_more]
+    enable = true
+    icon = "fa fa-file-code-o"
+    title = "Project Source Code"
+    subtitle = "This web site is brand new and growing every day. Meanwhile, you'll find our projects' code published on GitLab."
+    link_url = "https://gitlab.com/librehealth"
+    link_text = "LibreHealth on GitLab"
+
+############################################
+#Clients section
+############################################
+[params.clients]
+    enable = true
+    # All clients are defined in their own files. These need to be located at '/data/clients'.
+    # For more information take a look at the README.
+    title = "Our Team (More Names Coming Soon)"
+    Subtitle= "More Photos and Profiles Coming Soon!"
+
+[indexes]
+  category  = "categories"

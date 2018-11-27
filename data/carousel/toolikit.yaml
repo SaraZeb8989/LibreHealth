@@ -1,0 +1,8 @@
+weight: 3
+title: "LibreHealth toolkit"
+description:
+  <ul class="list-style-none">
+    <li>The LibreHealth Toolkit software serves as the foundational API and data model for Health IT applications</li>
+  </ul>
+image: "img/carousel/LH-REST-screen.png"
+

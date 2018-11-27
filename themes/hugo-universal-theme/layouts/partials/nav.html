@@ -1,0 +1,84 @@
+{{ if .Site.Params.EnforceSSL }}
+<script type="text/javascript">
+    if (window.location.protocol != "https:")
+        window.location.protocol = "https";
+</script>
+{{ end }}
+
+<div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar " style="background-color:darkmagenta">
+
+        <div class="container">
+            <div class="navbar-header ">
+                <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+                    <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo" height="50px"
+                         class="hidden-xs hidden-sm">
+                    <img src="{{ .Site.BaseURL }}img/logo-small.png" alt="{{ .Title }} logo"
+                         class="visible-xs visible-sm">
+                    <span class="sr-only">{{ .Title }} - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            <!--/.navbar-header -->
+
+            <div class="navbar-collapse collapse" id="navigation" >
+                <ul class="nav navbar-nav navbar-right" >
+                    {{ $currentNode := . }} {{ range .Site.Menus.main }} {{ if .HasChildren }}
+
+                    <li  class="dropdown{{if $currentNode.HasMenuCurrent " main " . }} active{{end}}">
+                        <a  style="color:white;text-decoration: none;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                        <span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu">
+                            {{ range .Children }}
+                            <li {{if $currentNode.IsMenuCurrent "main" . }} class="active" {{end}}>
+                                <a href="{{.URL}}"><i class="{{ .Pre }}" aria-hidden="true" > </i> {{ .Name }} </a> </li>
+                            {{ end }}
+                        </ul>
+                        {{else}}
+                        <li>
+                            <a href="{{.URL}} " style="color:white;text-decoration: none;">
+                            {{ .Pre }}
+                            <span>{{ .Name }}</span>
+                        </a> {{end}}
+                        </li>
+                        {{end}} {{ range .Site.Params.menu }}
+                        <li class="dropdown">
+                            <a href="{{ .url }}">{{ .name }}</a>
+                        </li>
+                        {{ end }}
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            <!--/.nav-collapse -->
+
+        </div>
+    </div>
+    <!-- /#navbar -->
+
+</div>
+
+<!-- *** NAVBAR END ***-->

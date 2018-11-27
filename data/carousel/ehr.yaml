@@ -1,0 +1,7 @@
+weight: 1
+title: "LibreHealth EHR"
+description:
+  <ul class="list-style-none">
+    <li>The LibreHealth EHR application is a clinically-focused electronic health record (EHR) system designed to be both easy to use "out of the box" and also customizable for use in a variety of health care settings.</li>
+  </ul>
+image: "img/carousel/librehealth-EHR.png"
