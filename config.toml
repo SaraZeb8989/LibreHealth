@@ -1,7 +1,7 @@
 contentdir    = "content"
 layoutdir     = "layouts"
-publishdir    = "public"
-baseurl       = "https://sarazeb8989.github.io/Librehealth/"
+publishDir    = "docs"
+baseurl       = "http://localhost:1313"
 title         = "LibreHealth"
 canonifyurls  = true
 theme         = "hugo-universal-theme"

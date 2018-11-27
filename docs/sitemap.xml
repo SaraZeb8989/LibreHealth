@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/projects/lh-ehr/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/lh-radiology/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/lh-toolkit/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/demos/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/donate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teams/diversity/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teams/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teams/education/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teams/infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teams/lsc/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teams/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
