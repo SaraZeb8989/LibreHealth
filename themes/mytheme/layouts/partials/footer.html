@@ -1,0 +1,70 @@
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+
+        {{ if isset .Site.Params "about_us" }}
+        <div class="col-md-4 col-sm-6">
+            <h4 class="pt">About us</h4>
+
+            {{ .Site.Params.about_us | safeHTML }}
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        <!-- /.col-md-4 -->
+      
+
+
+        <!-- /.col-md-4 -->
+       
+        <div class="col-md-4 col-sm-6 col-md-offset-2 bgfooter">
+     
+        <form role="form" >
+                    <h4 style="text-align: center;">Contact Form</h4>
+    				<div class="form-group" style="padding-top:10px">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>                   
+                    </div>
+                    <div class="form-group">
+                    <button type="button" id="submit" name="submit" class="btn pull-right">Submit Form</button>
+                    </div>
+        </form>
+    
+        </div>
+        <!-- /.col-md-4 -->
+        {{ end }}
+        </div>
+
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+          
+          
+          
+
+        </div>
+    </div>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->
