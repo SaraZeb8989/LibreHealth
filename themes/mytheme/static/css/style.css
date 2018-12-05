@@ -143,6 +143,41 @@ form{
 	padding: 20px 20px;
 
 }
+h2{
+	display: inline-block;
+    border-bottom: solid 5px #f05f40 !important;
+    line-height: 1.1;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.rounded-circle{
+	height: 200px;
+	width: 200px;
+	border-radius: 50% !important;
+	padding: 20px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.bullets{
+	text-decoration: none;
+	list-style: none !important;
+}
+.bullets a{
+	text-decoration: none !important;
+	color: #333333;
+}
+
+.rounded-circle:hover{
+
+	
+	padding: 10px;
+
+}
 
 @media (max-width: 1200px) { 
 
@@ -159,6 +194,14 @@ form{
 	font-size: 4rem;
 	color:#ff0000;
 	}
+	.rounded-circle{
+	height: 180px;
+	width: 180px;
+	border-radius: 50% !important;
+	padding: 15px;
+	margin: 0;
+	display: inline-table;
+}
 
  }
  @media (max-width: 991px) { 

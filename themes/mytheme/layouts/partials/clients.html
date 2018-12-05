@@ -1,10 +1,10 @@
 {{ if isset .Site.Params "clients" }}
 {{ if .Site.Params.clients.enable }}
 {{ if gt (len .Site.Data.clients) 0 }}
-<section class="bar background-gray no-mb">
+<section>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm">
                 <div class="heading text-center">
                     <h2>{{ .Site.Params.clients.title }}</h2>
                 </div>
@@ -13,19 +13,22 @@
                   {{ .Site.Params.clients.subtitle }}
                 </p>
 
-                <ul class="owl-carousel customers">
-                    {{ range .Site.Data.clients }}
-                    <li class="item" title="{{ .name }}">
-                        {{ if .url }}
-                          <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                <ul>
+                    <li class="bullets">
+                        {{ range .Site.Data.clients }}
+                        {{if .url}}
+                        <a href="{{.url}}">
+                          <img src="{{ .image }}" alt="{{ .name }}" class="rounded-circle" />
+                          <span class="text-center">{{.name}}</span>
                           </a>
-                        {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          {{else}}
+                          <img src="{{ .image }}" alt="{{ .name }}" class="rounded-circle" />
+                          <span class="text-center">{{.name}}</span>
                         {{ end }}
+                        {{end}}
                     </li>
-                    {{ end }}
                 </ul>
+
                 <!-- /.owl-carousel -->
             </div>
         </div>
