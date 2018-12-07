@@ -5,10 +5,17 @@
         {{ if isset .Site.Params "about_us" }}
         <div class="col-md-4 col-sm-6">
             <h4 class="pt">About us</h4>
-
+            <p class="text-center">
             {{ .Site.Params.about_us | safeHTML }}
-
+            </p>
             <hr class="hidden-md hidden-lg hidden-sm">
+
+            <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
 
         </div>
         
@@ -46,6 +53,11 @@
 
     </div>
     <!-- /.container -->
+    <div class="container-fluid text-center  " id ="icons-footer">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up up-icon  "></span>
+        </a>
+    </div>
 </footer>
 
 <!-- /#footer -->
@@ -68,3 +80,4 @@ _________________________________________________________ -->
 <!-- /#copyright -->
 
 <!-- *** COPYRIGHT END *** -->
+

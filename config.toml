@@ -168,6 +168,30 @@ paginate = 10
     enable = true
 
 ############################################
+#PROJECTS
+############################################
+[params.projects_sec1]
+    enable = true
+    title = "LibreHealth Projects"
+    subtitle = "LibreHealth EHR"
+    para = "The LibreHealth EHR application is a clinically-focused electronic health record (EHR) system designed to be both easy to use 'out of the box' and also customizable for use in a variety of health care settings. "
+    img = "img/carousel/librehealth-EHR.png"
+
+    subtitle2 = "LibreHealth Radiology"
+    para2 = "The LibreHealth Radiology is an open source Radiology Information System, that is written for the LibreHealth Toolkit and manages the clinical workflow of a radiology department."
+    img2 = "img/carousel/radiology-info-sys.png"
+
+    subtitle3 = "LibreHealth toolkit"
+    para3 = "The LibreHealth Toolkit software serves as the foundational API and data model for Health IT applications"
+    img3 = "img/carousel/LH-REST-screen.png"
+
+    subtitle4 = "LibreHealth toolkit API"
+    para4 = "The LibreHealth Toolkit has a powerful REST API along with web components that can be assembled by non-developers to create Health Information Systems that puts patient care in the forefront."
+    img4 = "img/carousel/LH-REST-screen.png"
+
+
+
+############################################
 #See more section
 ############################################
 [params.see_more]
