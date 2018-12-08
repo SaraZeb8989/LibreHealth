@@ -4,31 +4,35 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm">
-                <div class="heading text-center">
-                    <h2>{{ .Site.Params.clients.title }}</h2>
-                </div>
+            <div class="col-md-12 col-sm-12">
+                  <div class="heading text-center">
+                      <h2>{{ .Site.Params.clients.title }}</h2>
+                  </div>
 
-                <p class="lead">
-                  {{ .Site.Params.clients.subtitle }}
-                </p>
-
-                <ul>
-                    <li class="bullets">
-                        {{ range .Site.Data.clients }}
-                        {{if .url}}
-                        <a href="{{.url}}">
-                          <img src="{{ .image }}" alt="{{ .name }}" class="rounded-circle" />
-                          <span class="text-center">{{.name}}</span>
-                          </a>
-                          {{else}}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="rounded-circle" />
-                          <span class="text-center">{{.name}}</span>
-                        {{ end }}
-                        {{end}}
-                    </li>
+                <ul class="client-center">
+                  <div class="row">
+                  {{ range .Site.Data.clients }}                    
+                  
+                        <li class="bullets">
+                          <div class="col col-sm-6 col-md-4 ">
+                            <div class="thumbnail">
+                        
+                              {{if .url}}
+                                <a href="{{.url}}">
+                                    <img src="{{ .image }}" alt="{{ .name }}" class="rounded-circle" />
+                                    <p class="text-center">{{.name}}</p>
+                                </a>
+                              {{else}}
+                                <img src="{{ .image }}" alt="{{ .name }}" class="rounded-circle" />
+                                <p class="text-center">{{.name}}</p>
+                              {{ end }}
+                            </div>
+                          </div>     
+                        </li>
+                       
+                  {{end}}
+                  </div>
                 </ul>
-
                 <!-- /.owl-carousel -->
             </div>
         </div>

@@ -30,6 +30,17 @@ paginate = 10
     sharelogo = "img/share-logo.png"
 
 ############################################
+#banner section
+############################################
+[params.banner]
+    enable = true
+    Libre="Libre"
+    icon = "glyphicon glyphicon-plus"
+    Health="Health"
+    para = "LibreHealth is collaborative community for free & open source software projects in Health IT, and is a member project of Software Freedom Conservancy."
+    
+
+############################################
 #Menu Section
 ############################################
 [[menu.main]]

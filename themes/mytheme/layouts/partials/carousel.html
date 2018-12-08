@@ -1,15 +1,15 @@
-
+{{ if isset .Site.Params "banner" }}
+{{ if .Site.Params.banner.enable }}
 <section>
 
-        <div class="main-banner">
-            
+        <div class="main-banner">   
             <img src="{{ .Site.BaseURL }}img/unsplash-health.jpg" class="image-responsive">    
-            
-            <div class="bottom-right "><h1 class="text-size text-center">Libre <span class="glyphicon glyphicon-plus red"></span> Health</h1>
-                <p class="banner-p">LibreHealth is collaborative community for free & open source software projects in Health IT, and is a member project of Software Freedom Conservancy.</p>
-            </div>
-          
-    
+            <div class="bottom-right "><h1 class="text-size text-center">{{ .Site.Params.banner.Libre }} <span class="{{ .Site.Params.banner.icon }} red"></span> {{ .Site.Params.banner.Health }}
+            </h1>
+                <p class="banner-p">{{ .Site.Params.banner.para }}</p>
+            </div>        
         </div>
 </section>
+{{end}}
+{{end}}
 
