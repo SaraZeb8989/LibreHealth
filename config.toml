@@ -207,8 +207,8 @@ paginate = 10
     subtitle = "This web site is brand new and growing every day. Meanwhile, you'll find our projects' code published on GitLab."
     link_url = "https://gitlab.com/librehealth"
     link_text = "LibreHealth on GitLab"
-    link_url_1 = "https://github.com/LibreHealthIO"
-    link_text_1 = "LibreHealth on GitHub"
+    link_github_url = "https://github.com/LibreHealthIO"
+    link_github_text = "LibreHealth on GitHub"
 
 
 ############################################
