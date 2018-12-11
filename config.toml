@@ -59,21 +59,21 @@ paginate = 10
         parent = "projects"
         identifier="lh-radiology"
         url = "/projects/lh-radiology"
-        pre = "fa fa-heartbeat"
+        
 
     [[menu.main]]
         name = "LibreHealth Toolkit"
 	    parent = "projects"
 	    identifier="lh-toolkit"
 	    url = "/projects/lh-toolkit"
-	    pre = "fa fa-medkit"
+	   
 
     [[menu.main]]
         name = "LibreHealth EHR"
 	    parent = "projects"
 	    identifier="lh-ehr"
 	    url = "/projects/lh-ehr"
-	    pre = "fa fa-user-md"
+	  
 
 [[menu.main]]
     name = "Teams"
@@ -85,13 +85,13 @@ paginate = 10
         name = "Education & University Outreach"
         parent = "teams"
         url  = "/teams/education"
-        pre = "fa fa-graduation-cap"
+        
 
     [[menu.main]]
         name = "Documentation"
         parent = "teams"
         url  = "/teams/documentation"
-        pre = "fa fa-pencil"
+      
 
     [[menu.main]]
         name = "Diversity & Inclusion"
@@ -107,7 +107,7 @@ paginate = 10
         name = "LibreHealth Infrastructure Team"
         parent = "teams"
         url  = "/teams/infrastructure"
-        pre = "fa fa-server"
+        
 
 [[menu.main]]
     name = "community"
@@ -119,13 +119,13 @@ paginate = 10
         name = "Forums"
         parent = "community"
         url  = "https://forums.librehealth.io/"
-        pre = "fa fa-comments"
+       
 
     [[menu.main]]
         name = "Chat"
         parent = "community"
         url  = "https://chat.librehealth.io/"
-        pre = "fa fa-comment"
+       
 
 [[menu.main]]
     name = "demos"
@@ -143,19 +143,19 @@ paginate = 10
         name = "Contribute code"
         parent = "contrib"
         url  = "https://gitlab.com/librehealth"
-        pre = "fa fa-code-fork"
+       
 
     [[menu.main]]
         name = "Contribute documentation"
         parent = "contrib"
         url  = "https://gitlab.com/librehealth"
-        pre = "glyphicon glyphicon-book"
+        
 
     [[menu.main]]
         name = "Donate money"
         parent = "contrib"
         url  = "/donate"
-        pre = "glyphicon glyphicon-usd"
+        
 
 ############################################
 #Enable widgets for the right sidebar
@@ -165,11 +165,6 @@ paginate = 10
     tags = true
     search = true
 
-############################################
-#Enable carousel in homepage
-############################################
-[params.carousel]
-    enable = true
 
 ############################################
 #Features are defined in their own files.
@@ -212,6 +207,9 @@ paginate = 10
     subtitle = "This web site is brand new and growing every day. Meanwhile, you'll find our projects' code published on GitLab."
     link_url = "https://gitlab.com/librehealth"
     link_text = "LibreHealth on GitLab"
+    link_url_1 = "https://github.com/LibreHealthIO"
+    link_text_1 = "LibreHealth on GitHub"
+
 
 ############################################
 #Clients section
